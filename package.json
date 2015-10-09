@@ -1,0 +1,16 @@
+{
+  "name": "codemods",
+  "version": "1.0.0",
+  "description": "An example repo for a talk about codemods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "peek": "jscodeshift -d -p index.js",
+    "run": "jscodeshift index.js"
+  },
+  "author": "Murphy Randle",
+  "license": "MIT",
+  "dependencies": {
+    "jscodeshift": "0.3.7"
+  }
+}
